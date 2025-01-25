@@ -78,11 +78,11 @@ function MyData() {
         My Recommendations and Action Items
       </Button>
       <Button
-        onClick={() => history.push("/profile")}
+        onClick={() => history.push("/financials")}
         variant="contained"
         sx={{ mb: 2, width: "60%" }}
       >
-        My Profile
+        Financials
       </Button>
       <Button
         onClick={() => history.push("/my_inputs")}
@@ -114,7 +114,7 @@ function MyData() {
                 >
                   <Box>
                     <ListItemText
-                      primary={
+                     secondary={
                         <Typography
                           component="span"
                           variant="subtitle1"
@@ -123,7 +123,7 @@ function MyData() {
                           {date[1]} {date[0]}
                         </Typography>
                       }
-                      secondary={
+                      primary={
                         <Link
                           href="#"
                           onClick={(e) =>

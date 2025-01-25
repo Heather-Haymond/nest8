@@ -422,7 +422,7 @@ function AddEditInputs() {
           <Button
             type="button"
             variant="contained"
-            color="primary"
+            color="secondary"
             sx={{ mt: 3, mb: 2, alignSelf: "flex-end" }}
             onClick={(e) => handleEditSaveButton(e)}
           >

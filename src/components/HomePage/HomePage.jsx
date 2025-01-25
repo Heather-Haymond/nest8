@@ -91,31 +91,31 @@ function HomePage() {
                 <ListItemIcon>
                   <CheckBoxIcon color="black" />
                 </ListItemIcon>
-                <ListItemText primary="All-in-one tracker" />
+                <ListItemText secondary="All-in-one tracker" />
               </ListItem>
               <ListItem sx={{ my: -1 }}>
                 <ListItemIcon>
                   <CheckBoxIcon color="black" />
                 </ListItemIcon>
-                <ListItemText primary="Smart data and insights" />
+                <ListItemText secondary="Smart data and insights" />
               </ListItem>
               <ListItem sx={{ my: -1 }}>
                 <ListItemIcon>
                   <CheckBoxIcon color="black" />
                 </ListItemIcon>
-                <ListItemText primary="Empowers your business decisions" />
+                <ListItemText secondary="Empowers your business decisions" />
               </ListItem>
               <ListItem sx={{ my: -1 }}>
                 <ListItemIcon>
                   <CheckBoxIcon color="black" />
                 </ListItemIcon>
-                <ListItemText primary="Entrepreneur's best companion" />
+                <ListItemText secondary="Entrepreneur's best companion" />
               </ListItem>
               <ListItem>
                 <ListItemIcon>
                   <CheckBoxIcon color="black" />
                 </ListItemIcon>
-                <ListItemText primary="Everything you need in your pocket" />
+                <ListItemText secondary="Everything you need in your pocket" />
               </ListItem>
             </List>
           </Box>
@@ -247,7 +247,7 @@ function HomePage() {
           </Box>
           <Button
             variant="contained"
-            color="primary"
+            color="secondary"
             sx={{ textTransform: "none", marginTop: "20px", width: "80%" }}
             onClick={() => handleClick("/product_page")}
           >
@@ -274,7 +274,7 @@ function HomePage() {
             </Grid>
             <Grid item>
               <Button
-                color="primary"
+                color="secondary"
                 sx={{ textTransform: "none", fontSize: "large" }}
                 onClick={() => handleClick("/features")}
               >
@@ -288,7 +288,7 @@ function HomePage() {
             </Grid>
             <Grid item>
               <Button
-                color="primary"
+                color="secondary"
                 sx={{ textTransform: "none", fontSize: "large" }}
                 onClick={() => handleClick("/pricing")}
               >
@@ -299,7 +299,7 @@ function HomePage() {
               <Typography variant="h6">Support</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" onClick={() => handleClick("/faq")}>
+              <Button color="secondary" onClick={() => handleClick("/faq")}>
                 FAQ
               </Button>
             </Grid>
@@ -310,7 +310,7 @@ function HomePage() {
             </Grid>
             <Grid item>
               <Button
-                color="primary"
+                color="secondary"
                 sx={{ textTransform: "none", fontSize: "large" }}
                 onClick={() => handleClick("/contact")}
               >
@@ -322,7 +322,7 @@ function HomePage() {
             </Grid>
             <Grid item>
               <Button
-                color="primary"
+                color="secondary"
                 sx={{ textTransform: "none", fontSize: "large" }}
                 onClick={() => handleClick("/our_story")}
               >
@@ -336,7 +336,7 @@ function HomePage() {
             </Grid>
             <Grid item>
               <Button
-                color="primary"
+                color="secondary"
                 sx={{ textTransform: "none", fontSize: "large" }}
                 onClick={() => handleClick("/mission")}
               >
@@ -354,27 +354,27 @@ function HomePage() {
 
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <IconButton color="primary" href="https://facebook.com">
+              <IconButton color="secondary" href="https://facebook.com">
                 <FacebookIcon />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton color="primary" href="https://twitter.com">
+              <IconButton color="secondary" href="https://twitter.com">
                 <TwitterIcon />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton color="primary" href="https://instagram.com">
+              <IconButton color="secondary" href="https://instagram.com">
                 <InstagramIcon />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton color="primary" href="https://youtube.com">
+              <IconButton color="secondary" href="https://youtube.com">
                 <YouTubeIcon />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton color="primary" href="https://linkedin.com">
+              <IconButton color="secondary" href="https://linkedin.com">
                 <LinkedInIcon />
               </IconButton>
             </Grid>
@@ -384,7 +384,7 @@ function HomePage() {
             <Grid item>
               <Button
                 size="large"
-                color="primary"
+                color="secondary"
                 onClick={() => handleClick("/legal")}
               >
                 Legal
@@ -396,7 +396,7 @@ function HomePage() {
               </Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" onClick={() => handleClick("/privacy")}>
+              <Button color="secondary" onClick={() => handleClick("/privacy")}>
                 Privacy Notice
               </Button>
             </Grid>
@@ -407,7 +407,7 @@ function HomePage() {
             </Grid>
             <Grid item>
               <Button
-                color="primary"
+                color="secondary"
                 onClick={() => handleClick("/accessibility")}
               >
                 Accessibility

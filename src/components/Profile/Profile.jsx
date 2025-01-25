@@ -211,7 +211,7 @@ function Profile() {
           <Button
             onClick={handleSaveButton}
             variant="contained"
-            color="primary"
+            color="secondary"
             disabled={readOnly}
             sx={{ mr: 1 }}
           >

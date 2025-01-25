@@ -66,7 +66,7 @@ const UseCasePage = () => {
                 <Box mt={2} display="flex" justifyContent="center">
                   <Button
                     variant="contained"
-                    color="primary"
+                    color="secondary"
                     href="https://youtu.be/pOYc6DBdZGY?si=KzGIO54TEJQsjLbO"
                     target="_blank"
                     rel="noopener noreferrer"

@@ -35,7 +35,7 @@ function OrderConfirmation() {
         {productNumber === 1 || productNumber === 2 || productNumber == 3 ? (
           <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
             <Box sx={{ ml: 17, display: "flex" }}>
-              <CheckBoxIcon color="primary" />
+              <CheckBoxIcon color="secondary" />
               <Typography>
                 {products && products[productNumber - 1].name}: $
                 {products && products[productNumber - 1].promo_price}{" "}
